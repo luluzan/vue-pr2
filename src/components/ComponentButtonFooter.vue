@@ -1,7 +1,7 @@
 
 <template>
 
-<section class="container-feedback">
+<!-- <section class="container-feedback">
 
 <div class="feedback">
 
@@ -37,7 +37,7 @@
 
 </div>
 
-</section>
+</section> -->
 
     <section class="container-screens-last">
 
