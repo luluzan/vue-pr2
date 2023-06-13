@@ -3,17 +3,18 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import ComponentButtonFooter from './components/ComponentButtonFooter.vue'
 import ComponentFooter from './components/ComponentFooter.vue'
-
+ import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </script>
 
 <template>
 
 
-  <ComponentFooter></ComponentFooter>
+  <ComponentBarraIconos></ComponentBarraIconos>
   <ComponentButtonFooter></ComponentButtonFooter>
+  <ComponentFooter></ComponentFooter>
 </template>
 
-<!-- <style>
+<style>
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -40,4 +41,4 @@ import ComponentFooter from './components/ComponentFooter.vue'
   }
 
 }
-</style> -->
+</style>
