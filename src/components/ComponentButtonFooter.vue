@@ -42,7 +42,7 @@
     <section class="container-screens-last">
 
         <div class="download-iphone"></div>
-        <img class="download-iphone-img" src="media/images/download-iphone.png" alt="" width="921" height="578"
+        <img class="download-iphone-img" src="../images/download-iphone.png" alt="foto telefono" width="921" height="578"
         loading="lazy">
         
 
