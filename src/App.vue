@@ -1,25 +1,16 @@
 <script setup>
- feature/component_h1
 import Component_h1 from './components/Component_h1.vue'
+import ComponentDefaultList from './components/ComponentDefaultList.vue';
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 </script>
 
 <template>
   <header>
     <Component_h1 msg="Mobile App Landing Page"></Component_h1>
+    <ComponentBtnGeneral msg1="Login" />
+    <ComponentBtnGeneral msg1="Otra Cosa" />
   </header>
-</template>
 
-<style scoped>
-h1 {
-  font-size: 3rem;
-  font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
-  margin: 0;
-
-
-import ComponentDefaultList from './components/ComponentDefaultList.vue';
-</script>
-
-<template>
   <main>
     <ul>
       <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
@@ -30,6 +21,11 @@ import ComponentDefaultList from './components/ComponentDefaultList.vue';
 </template>
 
 <style scoped>
+h1 {
+  font-size: 3rem;
+  font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
+  margin: 0;
+}
 ul{
   margin: 0;
   padding: 0;
@@ -42,25 +38,11 @@ ul{
   padding-left: 5%;
   margin-top: 5%;
 }
-=======
-import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
-</script>
 
-<template>
-  <header>
-    <ComponentBtnGeneral msg1="Login" />
-    <ComponentBtnGeneral msg1="Otra Cosa" />
-  </header>
-
-</template>
-
-<style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
-
 
 @media (min-width: 1024px) {
   header {
@@ -86,6 +68,5 @@ header {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-
 }
 </style>
