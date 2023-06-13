@@ -14,7 +14,7 @@
      <!-- </ul> -->
 </template>
 
-<style lang="css" scoped>
+<!-- <style lang="css" scoped>
      ul{
           margin: 0;
           padding: 0;
@@ -27,4 +27,4 @@
           padding-left: 5%;
           margin-top: 5%;
      }
-</style>
+</style> -->
