@@ -1,4 +1,34 @@
 <script setup>
+ feature/component_default_list
+//import { RouterLink, RouterView } from 'vue-router'
+//import HelloWorld from './components/HelloWorld.vue'
+import ComponentDefaultList from './components/ComponentDefaultList.vue';
+</script>
+
+<template>
+  <main>
+    <ul>
+      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
+      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
+      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
+    </ul>
+  </main>
+</template>
+
+<style scoped>
+ul{
+  margin: 0;
+  padding: 0;
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+=======
 import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 </script>
 
@@ -15,6 +45,8 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
+
+
 
 @media (min-width: 1024px) {
   header {
