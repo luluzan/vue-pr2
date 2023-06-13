@@ -1,79 +1,53 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
-import IconStar from './components/icons/IconStar.vue'
-
-
+import Component_h1 from './components/Component_h1.vue'
+import ComponentDefaultList from './components/ComponentDefaultList.vue';
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 </script>
 
 <template>
-  <main>
-    <template>
-      <IconStar />
-    </template>
-  </main>
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+  <header>
+    <Component_h1 msg="Mobile App Landing Page"></Component_h1>
+    <ComponentBtnGeneral msg1="Login" />
+    <ComponentBtnGeneral msg1="Otra Cosa" />
   </header>
 
-  <RouterView /> -->
+  <main>
+    <ul>
+      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
+      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
+      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
+    </ul>
+  </main>
 </template>
 
 <style scoped>
-template{
-  display: flex;
-
+h1 {
+  font-size: 3rem;
+  font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 5%;
+  margin-top: 5%;
 }
 
-/* header {
+header {
   line-height: 1.5;
   max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
 }
 
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
@@ -94,5 +68,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-} */
+}
 </style>
