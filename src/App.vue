@@ -1,4 +1,5 @@
 <script setup>
+ feature/component_default_list
 //import { RouterLink, RouterView } from 'vue-router'
 //import HelloWorld from './components/HelloWorld.vue'
 import ComponentDefaultList from './components/ComponentDefaultList.vue';
@@ -27,11 +28,30 @@ ul{
   padding-left: 5%;
   margin-top: 5%;
 }
+=======
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+</script>
+
+<template>
+  <header>
+    <ComponentBtnGeneral msg1="Login" />
+    <ComponentBtnGeneral msg1="Otra Cosa" />
+  </header>
+
+</template>
+
+<style scoped>
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+
+
+
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
