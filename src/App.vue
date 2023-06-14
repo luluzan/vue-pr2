@@ -7,8 +7,8 @@ import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 <template>
   <header>
     <Component_h1 msg="Mobile App Landing Page"></Component_h1>
-    <ComponentBtnGeneral msg1="Login" />
-    <ComponentBtnGeneral msg1="Otra Cosa" />
+    <ComponentBtnGeneral msg="Login" />
+    <ComponentBtnGeneral msg="Otra Cosa" />
   </header>
 
   <main>
