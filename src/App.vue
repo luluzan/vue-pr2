@@ -2,10 +2,13 @@
 import Component_h1 from './components/Component_h1.vue'
 import ComponentDefaultList from './components/ComponentDefaultList.vue';
 import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+import ComponentNavbar from './components/ComponentNavbar.vue';
 </script>
 
 <template>
   <header>
+
+    <ComponentNavbar/>
     <Component_h1 msg="Mobile App Landing Page"></Component_h1>
     <ComponentBtnGeneral msg="Login" />
     <ComponentBtnGeneral msg="Otra Cosa" />
