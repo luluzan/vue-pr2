@@ -3,19 +3,31 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import ComponentButtonFooter from './components/ComponentButtonFooter.vue'
 import ComponentFooter from './components/ComponentFooter.vue'
- import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
+import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </script>
 
 <template>
 
-
-  <ComponentBarraIconos></ComponentBarraIconos>
+<div class="container">
+  <ComponentBarraIconos class="barraIconos"></ComponentBarraIconos>
   <ComponentButtonFooter></ComponentButtonFooter>
   <ComponentFooter></ComponentFooter>
+
+
+</div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.barraIconos {
+padding: 0;
+
+}
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -40,5 +52,5 @@ import ComponentFooter from './components/ComponentFooter.vue'
     margin-top: 1rem;
   }
 
-}
+} */
 </style>

@@ -1,4 +1,12 @@
+<script setup>
 
+  import facebook from '../images/fb_icon.png';
+  import twitter from '../images/twitter_icon.png';
+  import pinterest from '../images/pint_icon.png';
+  import instagram from '../images/ig_icon.png';
+
+ 
+</script>
 
 
 
@@ -45,10 +53,10 @@
 
         <section class="social-links">
 
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><img :src="facebook" alt="img facebook"/></a> 
+            <a href="https://twitter.com/"><img :src="twitter" alt="img twitter"/></a>
+            <a href="https://www.pinterest.com/"><img :src="pinterest" alt="img pinterest"/></a>
+            <a href="https://www.instagram.com/"><img :src="instagram" alt="img instagram"/></a>
 
         </section>
 
@@ -155,5 +163,3 @@ footer li {
 }
 </style>
 
-<script>
-</script>
