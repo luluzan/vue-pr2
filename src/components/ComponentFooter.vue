@@ -19,12 +19,9 @@
 
             <h4>Contact info</h4>
             <ul class="contact-info-list">
-            <li><i class="fas fa-map-marker"></i>
-                22 Innovation Street, CA, US
-            </li>
-            <li><i class="fas fa-envelope"></i> <a href="mailto:office@syncmobile.com">office@syncmobile.com</a></li>
-            <li><i class="fas fa-phone"></i> <a href="tel:+44 376 945 23">+44 376 945 23</a>
-            </li>
+              <li>22 Innovation Street, CA, US</li>
+              <li><a href="mailto:office@syncmobile.com">office@syncmobile.com</a></li>
+              <li><a href="tel:+44 376 945 23">+44 376 945 23</a></li>
             </ul>
 
         </section>
@@ -53,10 +50,10 @@
 
         <section class="social-links">
 
-            <a href="https://www.facebook.com/"><img :src="facebook" alt="img facebook"/></a> 
-            <a href="https://twitter.com/"><img :src="twitter" alt="img twitter"/></a>
-            <a href="https://www.pinterest.com/"><img :src="pinterest" alt="img pinterest"/></a>
-            <a href="https://www.instagram.com/"><img :src="instagram" alt="img instagram"/></a>
+            <a href="https://www.facebook.com/"><img class="imgSocial" :src="facebook" alt="img facebook"/></a> 
+            <a href="https://twitter.com/"><img class="imgSocial" :src="twitter" alt="img twitter"/></a>
+            <a href="https://www.pinterest.com/"><img class="imgSocial" :src="pinterest" alt="img pinterest"/></a>
+            <a href="https://www.instagram.com/"><img class="imgSocial" :src="instagram" alt="img instagram"/></a>
 
         </section>
 
@@ -71,12 +68,16 @@
 
 <style scoped>
 
+.imgSocial {
+  box-sizing: content-box;
+
+}
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 90vw;
   min-height: 100%;
   background-color: #f7fafd;
   border-top: 1px solid #c8d4d6;

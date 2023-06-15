@@ -5,19 +5,12 @@
 
   <section class="container-screens-last">
 
-    <div class="download-iphone"></div>
-    <img class="download-iphone-img" src="../images/download-iphone.png" alt="foto telefono" width="921" height="578"
-    loading="lazy">
+    <img class="download-iphone-img" src="../images/download-iphone.png" alt="foto telefono">
     
-
     <section class="container-screens-bottom">
-
-    <p>Do you feel like you're wasting time with small stuff instead of working towards your goals? Start
-        using
-        Sync
-        to organize your time and get a grip on your personal development</p>
-    <button class="btn download-btn" type="button"><i class="fa-brands fa-apple"></i>DOWNLOAD</button>
-    <button class="btn download-btn" type="button"><i class="fa-brands fa-google-play"></i>DOWNLOAD</button>
+      <p>Do you feel like you're wasting time with small stuff instead of working towards your goals? Start using Syncto organize your time and get a grip on your personal development</p>
+      <button class="btn download-btn" type="button"><i class="fa-brands fa-apple"></i>DOWNLOAD</button>
+      <button class="btn download-btn" type="button"><i class="fa-brands fa-google-play"></i>DOWNLOAD</button>
 
     </section>
 
@@ -29,7 +22,8 @@
 
 .container-screens-last {
   text-align: center;
-  width: 80vw;
+  width: 90vw;
+  height: 90vw;
   margin: 0 auto;
 }
 
@@ -38,7 +32,7 @@
 }
 
 .download-iphone-img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin-top: 140px;
   transition: transform .2s;
@@ -62,7 +56,27 @@
   line-height: 1.6rem;
   width: 90%;
 }
-
+.btn {
+  font-size:x-small;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    margin-left: 1rem;
+    background-color: #FF4B63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.8s ease;
+    border: none;
+}
+.btn:hover {
+  font-size: medium;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px 5px rgba(154, 103, 231, 0.8);
+}
 
 
 </style>
