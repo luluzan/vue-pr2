@@ -1,6 +1,7 @@
 <script setup>
-import logo from './images/logo.svg';
-import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+    import ComponentBtnGeneral from '.ComponentBtnGeneral.vue';
+    const logo = 'logo__.png';
+
 </script>
 
 <template>
@@ -8,8 +9,8 @@ import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
     
     <nav class="menu-sup">
         <a href='index.html' class="logo-nav">
-        <img :src="logo" alt="logo empresa" class="logo_nav"/>
-        </a>nnpm
+        <img :src="logo" alt='prueba'>
+        </a>
             
     <ul class='navbar'>
         <li><a href="#description">description</a></li>
