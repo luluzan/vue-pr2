@@ -25,7 +25,7 @@ import Component_h1 from './components/ComponentH1.vue'
 </template>
 
 <style scoped>
-h1 {
+/* h1 {
   font-size: 3rem;
   font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
   margin: 0;
@@ -46,7 +46,7 @@ ul{
 header {
   line-height: 1.5;
   max-height: 100vh;
-}
+} */
 
 @media (min-width: 1024px) {
   header {
