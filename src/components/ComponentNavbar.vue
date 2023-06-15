@@ -117,7 +117,7 @@ hr {
 }
 
 .around-download a{
-    border: 2px solid var(--color-strawberrypink);
+    border: 2px solid  #FF4B63;
     border-radius: 25px;
     padding: 1vh 2vw;
     display: inline-block;
