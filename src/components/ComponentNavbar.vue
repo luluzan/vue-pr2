@@ -60,7 +60,7 @@ nav {
 
 #logo-home {
     width: 10vw;
-    height: 5vh;
+    height: auto;
     margin-right: 2vh; 
     margin-left: 20px;
 }
