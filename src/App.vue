@@ -1,7 +1,6 @@
 <script setup>
-import Component_h1 from './components/Component_h1.vue'
-import ComponentDefaultList from './components/ComponentDefaultList.vue';
-import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+import ComponentDefaultList from './components/ComponentDefaultList.vue'
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue'
 </script>
 
 <template>
@@ -13,9 +12,9 @@ import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 
   <main>
     <ul>
-      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
-      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
-      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
+      <ComponentDefaultList msg="Analyse and evaluate your current status and productivity" />
+      <ComponentDefaultList msg="Begin monitoring your day to day routine with Sync app" />
+      <ComponentDefaultList msg="See the improved results in no more than a couple of weeks" />
     </ul>
   </main>
 </template>
@@ -26,7 +25,7 @@ h1 {
   font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
   margin: 0;
 }
-ul{
+ul {
   margin: 0;
   padding: 0;
   color: #ff0000;
