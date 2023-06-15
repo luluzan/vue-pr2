@@ -9,9 +9,7 @@ export default {
 </script>
 
 <template>
-  <section class="header">
-    <ComponentIntro />
-  </section>
+  <ComponentIntro />
 </template>
 
 <style scoped></style>

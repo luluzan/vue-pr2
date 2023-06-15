@@ -1,10 +1,10 @@
 <template>
   <section class="features-container">
-    <FeatureCircle icon="users" color="purple">Identify Goals</FeatureCircle>
-    <FeatureCircle icon="code" color="green">Situation Analysis</FeatureCircle>
-    <FeatureCircle icon="gear" color="pink">Tasks Settings</FeatureCircle>
-    <FeatureCircle icon="comments" color="yellow">Social Interaction</FeatureCircle>
-    <FeatureCircle icon="rocket" color="blue">Get Things Done</FeatureCircle>
+    <FeatureCircle icon="users" color="purple" title="Identify Goals"></FeatureCircle>
+    <FeatureCircle icon="code" color="green" title="Situation Analysis"></FeatureCircle>
+    <FeatureCircle icon="gear" color="pink" title="Tasks Settings"></FeatureCircle>
+    <FeatureCircle icon="comments" color="yellow" title="Social Interaction"></FeatureCircle>
+    <FeatureCircle icon="rocket" color="blue" title="Get Things Done"></FeatureCircle>
   </section>
 </template>
 
