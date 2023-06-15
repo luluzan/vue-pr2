@@ -1,8 +1,9 @@
 <script setup>
-import Component_h1 from './components/Component_h1.vue'
+
 import ComponentDefaultList from './components/ComponentDefaultList.vue';
 import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 import ComponentNavbar from './components/ComponentNavbar.vue';
+import Component_h1 from './components/ComponentH1.vue'
 </script>
 
 <template>
