@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <button class="btn-general">{{ msg1 }}</button>
+    <button class="btn-general">{{ msg }}</button>
 </template>
 
 <style>

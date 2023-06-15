@@ -7,6 +7,11 @@ import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </script>
 
 <template>
+  <header>
+    <Component_h1 msg="Mobile App Landing Page"></Component_h1>
+    <ComponentBtnGeneral msg="Login" />
+    <ComponentBtnGeneral msg="Otra Cosa" />
+  </header>
 
 <div class="container">
   <ComponentBarraIconos class="barraIconos"></ComponentBarraIconos>
