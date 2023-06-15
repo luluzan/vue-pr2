@@ -28,13 +28,13 @@
 
 <style>
 a:hover{
-  cursor:zoom-in;
+    cursor:zoom-in;
 }
 button:hover{
-  cursor:cell;
+    cursor:cell;
 }
 header{
-  align-items: center;
+    align-items: center;
  }
 nav {
     display: flex;
