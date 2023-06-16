@@ -170,6 +170,11 @@ h1 {
 
 .features-container .green {
   background-color: #d5f2ed;
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+  }
 }
 
 .features-container .green i {
