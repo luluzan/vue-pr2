@@ -69,8 +69,10 @@
 <style scoped>
 
 .imgSocial {
-  box-sizing: content-box;
-
+  /* box-sizing: content-box; */
+  width: 36px;
+  justify-content: center;
+  align-content: center;
 }
 footer {
   display: flex;
@@ -78,7 +80,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   width: 90vw;
-  min-height: 100%;
+  min-height: 90%;
   background-color: #f7fafd;
   border-top: 1px solid #c8d4d6;
   padding: 5vh 5vw 2vh;
@@ -123,7 +125,6 @@ footer li {
   display: inline-block;
   height: 35px;
   width: 35px;
-  background-color: #868687;
   text-align: center;
   line-height: 35px;
   border-radius: 50%;

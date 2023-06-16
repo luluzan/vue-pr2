@@ -23,7 +23,7 @@
 .container-screens-last {
   text-align: center;
   width: 90vw;
-  height: 90vw;
+  height: 80vw;
   margin: 0 auto;
 }
 
@@ -47,8 +47,7 @@
 }
 
 .container-screens-bottom p {
-  font-size: 0.9375rem;
-  font-size: clamp(0.9375rem, 0.9rem + 0.1875vw, 1.125rem);
+  font-size: 1.6rem;
   color: #868687;
   font-weight: 500;
   padding: 2rem 0;

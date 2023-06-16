@@ -47,7 +47,7 @@
 
 <style>
 .icon {
- width: 50px;
+ width: 80px;
 }
 .container-feedback {
   width: 100vw;
