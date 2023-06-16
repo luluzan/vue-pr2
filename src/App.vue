@@ -12,16 +12,9 @@ export default {
 
 
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
-
-
-
+import Component_h1 from './components/Component_h1.vue'
+import ComponentDefaultList from './components/ComponentDefaultList.vue';
 import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
-import ComponentNavbar from './components/ComponentNavbar.vue';
-import ComponentButtonFooter from './components/ComponentButtonFooter.vue';
-import ComponentFooter from './components/ComponentFooter.vue';
-import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </script>
 
 <template>
@@ -34,13 +27,13 @@ import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
     <ComponentBtnGeneral msg="Otra Cosa" />
   </header>
 
-<div class="container">
-  <ComponentBarraIconos class="barraIconos"></ComponentBarraIconos>
-  <ComponentButtonFooter></ComponentButtonFooter>
-  <ComponentFooter></ComponentFooter>
-
-
-</div>
+  <main>
+    <ul>
+      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
+      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
+      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
+    </ul>
+  </main>
 </template>
 
 
