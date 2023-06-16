@@ -1,6 +1,6 @@
 <script setup>
     defineProps({
-    msg1: {
+    msg: {
         type: String,
         required: true
     }
@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <button class="btn-general">{{ msg1 }}</button>
+    <button class="btn-general">{{ msg }}</button>
 </template>
 
 <style>
