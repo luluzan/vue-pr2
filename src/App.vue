@@ -1,13 +1,43 @@
 <script>
-  import ComponentDefaultList from './components/ComponentDefaultList.vue';
-  import ComponentCheckBoxList from './components/ComponentCheckBoxList.vue';
+import ComponentIntro from './components/ComponentIntro.vue';
+export default {
+  name: 'App',
+  components: {
+    ComponentIntro,
+  },
+};
+</script>
+
+
+
+
+<script setup>
+import Component_h1 from './components/Component_h1.vue'
+import ComponentDefaultList from './components/ComponentDefaultList.vue';
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
 </script>
 
 <template>
-  <ComponentDefaultList h2="Organize Your Time And Start Getting Results" msg="Sync is the first mobile app on the market to harness the power of social connections to help you stop procrastinating and start getting things done. Give it a try and see the changes right away"/>
-  <ComponentCheckBoxList h2="Organize Your Time And Start Getting Results" msg="to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders."/>
+  <ComponentIntro />
+  <header>
+
+    <ComponentNavbar/>
+    <Component_h1 msg="Mobile App Landing Page"></Component_h1>
+    <ComponentBtnGeneral msg="Login" />
+    <ComponentBtnGeneral msg="Otra Cosa" />
+  </header>
+
+  <main>
+    <ul>
+      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
+      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
+      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
+    </ul>
+  </main>
 </template>
 
+
 <style scoped>
+
 
 </style>
