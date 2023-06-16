@@ -8,6 +8,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <section class="features-container">
     <FeatureCircle icon="users" color="purple" title="Identify Goals"></FeatureCircle>
