@@ -185,32 +185,6 @@ h1 {
   animation-delay: 0s;
 }
 
-/*@keyframes temblor {
-  0% {
-    left: 3px;
-    top: 8px;
-  }
-
-  25% {
-    left: -3px;
-    top: 5px;
-  }
-
-  50% {
-    left: 3px;
-    top: 8px;
-  }
-
-  75% {
-    left: -3px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}*/
 
 .features-container .pink {
   background-color: #f7e1e7;
@@ -229,32 +203,6 @@ h1 {
   animation-delay: 0s;
 }
 
-/*@keyframes temblor {
-  0% {
-    left: 3px;
-    top: 8px;
-  }
-
-  25% {
-    left: -3px;
-    top: 5px;
-  }
-
-  50% {
-    left: 3px;
-    top: 8px;
-  }
-
-  75% {
-    left: -3px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}*/
 
 .features-container .yellow {
   background-color: #f7efd9;
@@ -273,33 +221,6 @@ h1 {
   animation-delay: 0s;
 }
 
-/*@keyframes temblor {
-  0% {
-    left: 3px;
-    top: 8px;
-  }
-
-  25% {
-    left: -3px;
-    top: 5px;
-  }
-
-  50% {
-    left: 3px;
-    top: 8px;
-  }
-
-  75% {
-    left: -3px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}*/
-
 .features-container .blue {
   background-color: #ddf0f9;
 }
@@ -316,30 +237,3 @@ h1 {
   animation-duration: .4s;
   animation-delay: 0s;
 }
-
-/*@keyframes temblor {
-  0% {
-    left: 3px;
-    top: 8px;
-  }
-
-  25% {
-    left: -3px;
-    top: 5px;
-  }
-
-  50% {
-    left: 3px;
-    top: 8px;
-  }
-
-  75% {
-    left: -3px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}*/
