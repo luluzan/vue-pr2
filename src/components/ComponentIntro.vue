@@ -1,14 +1,14 @@
 <script>
-import HeaderiPhone from './HeaderiPhone.vue';
-import FeaturesContainer from './FeaturesContainer.vue';
-
-export default {
-  name: 'ComponentIntro',
-  components: {
-    HeaderiPhone,
-    FeaturesContainer,
-  },
-};
+  import HeaderiPhone from './HeaderiPhone.vue';
+  import FeaturesContainer from './FeaturesContainer.vue';
+  import ComponentBtnGeneral from './ComponentBtnGeneral.vue';
+  export default {
+    name: 'ComponentIntro',
+    components: {
+      HeaderiPhone,
+      FeaturesContainer,
+    }
+  };
 </script>
 
 <template>
@@ -18,14 +18,16 @@ export default {
       Start focusing on your goals and get more things done with Sync mobile applications.
       It's the first app to harness the power of social connections to help you stay focused and get organized
     </p>
-    <button class="btn donwload-apple">
+    <ComponentBtnGeneral msg="DOWNLOAD" />
+    <ComponentBtnGeneral msg="DOWNLOAD" />
+    <!-- <button class="btn donwload-apple">
       <i class="fa-brands fa-apple"></i>
       DOWNLOAD
     </button>
     <button class="btn download-gplay">
       <i class="fa-brands fa-google-play"></i>
       DOWNLOAD
-    </button>
+    </button> -->
     <HeaderiPhone />
     <FeaturesContainer />
     <img src="src/images/decorative-green-diamond.svg" alt="decorative green diamond" class="green-diamond"

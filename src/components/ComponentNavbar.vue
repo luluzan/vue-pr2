@@ -1,6 +1,5 @@
 <script setup>
-   // import ComponentBtnGeneral from '.ComponentBtnGeneral.vue';
-    //const logo = 'logo__.png';
+    import ComponentBtnGeneral from './ComponentBtnGeneral.vue';
 </script>
 
 <template>
@@ -20,10 +19,10 @@
                     <hr>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
-            <li class='around-download'><a href='#'>download</a></li>
+            <li class='around-download'><a href='#'><ComponentBtnGeneral msg="Login" /></a></li>
         </ul>
     </nav>
-  </header>  
+</header>  
 </template>
 
 <style>

@@ -1,39 +1,30 @@
-<script>
-import ComponentIntro from './components/ComponentIntro.vue';
-export default {
-  name: 'App',
-  components: {
-    ComponentIntro,
-  },
-};
-</script>
-
-
-
-
 <script setup>
-import Component_h1 from './components/Component_h1.vue'
-import ComponentDefaultList from './components/ComponentDefaultList.vue';
-import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+  import ComponentBtnGeneral from '../components/ComponentBtnGeneral.vue';
+  import ComponentIntro from '../components/ComponentIntro.vue';
+  import ComponentNavbar from '../components/ComponentNavbar.vue';
+  import compOne from './components/CompOne.vue';
+  import CompRebeldin from './components/CompRebeldin.vue';
+  import UserExperienceComponent from 'UserExperienceComponent.vue';
+  import ComponentBarraIconos from 'ComponentBarraIconos.vue';
+  import ComponentButtonFooter from 'ComponentButtonFooter.vue';
+  import ComponentFooter from 'ComponentFooter.vue';
 </script>
 
 <template>
   <ComponentIntro />
   <header>
-
-    <ComponentNavbar/>
-    <Component_h1 msg="Mobile App Landing Page"></Component_h1>
+    <ComponentNavbar />
     <ComponentBtnGeneral msg="Login" />
     <ComponentBtnGeneral msg="Otra Cosa" />
   </header>
+  <ComponentIntro />
+    <compOne h2='Organize Your Time And Start Getting Results' msg='Sync is the first mobile app on the market to harness the power of social connections to help you stop procrastinating and start getting things done. Give it a try and see the changes right away' />
+    <CompRebeldin h2='Organize Your Time And Start Getting Results' msg='Schedule tasks to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders.' />
 
-  <main>
-    <ul>
-      <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
-      <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
-      <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
-    </ul>
-  </main>
+  <UserExperienceComponent />
+  <ComponentBarraIconos />
+  <ComponentButtonFooter />
+  <ComponentFooter />
 </template>
 
 
