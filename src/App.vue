@@ -1,7 +1,8 @@
 <script setup>
 import Component_h1 from './components/Component_h1.vue'
-import ComponentDefaultList from './components/ComponentDefaultList.vue';
-import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+import ComponentDefaultList from './components/ComponentDefaultList.vue'
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue'
+import UserExperienceComponent from './components/UserExperienceComponent.vue'
 </script>
 
 <template>
@@ -10,13 +11,14 @@ import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
     <ComponentBtnGeneral msg1="Login" />
     <ComponentBtnGeneral msg1="Otra Cosa" />
   </header>
-
+  
   <main>
     <ul>
       <ComponentDefaultList  msg="Analyse and evaluate your current status and productivity" />
       <ComponentDefaultList  msg="Begin monitoring your day to day routine with Sync app" />
       <ComponentDefaultList  msg="See the improved results in no more than a couple of weeks" />
     </ul>
+    <UserExperienceComponent msg="User testimonials"/>
   </main>
 </template>
 
