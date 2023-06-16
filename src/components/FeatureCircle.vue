@@ -28,14 +28,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.circle_title {
-  color: #000;
-  font-size: 1rem;
-  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
-  font-weight: 700;
-  text-align: center;
-}
-</style>
-
