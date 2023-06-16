@@ -1,13 +1,34 @@
+<script>
+import ComponentIntro from './components/ComponentIntro.vue';
+export default {
+  name: 'App',
+  components: {
+    ComponentIntro,
+  },
+};
+</script>
+
+
+
+
 <script setup>
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-import ComponentButtonFooter from './components/ComponentButtonFooter.vue'
-import ComponentFooter from './components/ComponentFooter.vue'
+
+
+
+import ComponentBtnGeneral from './components/ComponentBtnGeneral.vue';
+import ComponentNavbar from './components/ComponentNavbar.vue';
+import ComponentButtonFooter from './components/ComponentButtonFooter.vue';
+import ComponentFooter from './components/ComponentFooter.vue';
 import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </script>
 
 <template>
+  <ComponentIntro />
   <header>
+
+    <ComponentNavbar/>
     <Component_h1 msg="Mobile App Landing Page"></Component_h1>
     <ComponentBtnGeneral msg="Login" />
     <ComponentBtnGeneral msg="Otra Cosa" />
@@ -22,40 +43,8 @@ import ComponentBarraIconos from './components/ComponentBarraIconos.vue';
 </div>
 </template>
 
-<style>
-.container {
-  display: flex;
-  flex-direction: column;
-}
 
-.barraIconos {
-padding: 0;
+<style scoped>
 
-}
-/* @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-  }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-
-} */
 </style>
