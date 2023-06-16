@@ -1,6 +1,6 @@
 <script setup>
     defineProps({
-    msg1: {
+    msg: {
         type: String,
         required: true
     }

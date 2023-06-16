@@ -26,3 +26,15 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+src/components/ComponentDefaultList.vue.PrimeraVer1
+src/components/ComponentDefaultList.vue.SegundaVer
+src/images/check verde para list style.png
+.gitignore
+src/assets/main.css
+src/App.vue.PrimeraVer1
+src/App.vue
+src/App.vue
+src/assets/main.css
+src/App.vue
+src/components/ComponentBtnGeneral.vue
+src/components/ComponentBtnGeneral.vue
