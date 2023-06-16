@@ -6,12 +6,8 @@
   font-weight: normal;
 }
 
-body{
-=======
-
 
 #app {
->>>>>>> 4870539c1412cc30c02b807e72d82619f222a879
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -183,14 +179,12 @@ h1 {
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-<<<<<<< HEAD
     padding: 0;
   }
-} */
-=======
+} 
  
-  }
-}
+
+
 
 .features-container .green i {
   color: #19ca94;
@@ -257,4 +251,3 @@ h1 {
   animation-duration: .4s;
   animation-delay: 0s;
 }
->>>>>>> 4870539c1412cc30c02b807e72d82619f222a879
