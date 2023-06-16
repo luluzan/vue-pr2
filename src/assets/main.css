@@ -185,7 +185,7 @@ h1 {
   animation-delay: 0s;
 }
 
-@keyframes temblor {
+/*@keyframes temblor {
   0% {
     left: 3px;
     top: 8px;
@@ -210,7 +210,7 @@ h1 {
     left: 0px;
     top: 0px;
   }
-}
+}*/
 
 .features-container .pink {
   background-color: #f7e1e7;
@@ -229,7 +229,7 @@ h1 {
   animation-delay: 0s;
 }
 
-@keyframes temblor {
+/*@keyframes temblor {
   0% {
     left: 3px;
     top: 8px;
@@ -254,7 +254,7 @@ h1 {
     left: 0px;
     top: 0px;
   }
-}
+}*/
 
 .features-container .yellow {
   background-color: #f7efd9;
@@ -273,7 +273,7 @@ h1 {
   animation-delay: 0s;
 }
 
-@keyframes temblor {
+/*@keyframes temblor {
   0% {
     left: 3px;
     top: 8px;
@@ -298,7 +298,7 @@ h1 {
     left: 0px;
     top: 0px;
   }
-}
+}*/
 
 .features-container .blue {
   background-color: #ddf0f9;
@@ -317,7 +317,7 @@ h1 {
   animation-delay: 0s;
 }
 
-@keyframes temblor {
+/*@keyframes temblor {
   0% {
     left: 3px;
     top: 8px;
@@ -342,4 +342,4 @@ h1 {
     left: 0px;
     top: 0px;
   }
-}
+}*/

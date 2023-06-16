@@ -1,14 +1,3 @@
-<template>
-  <div class="circle_container">
-    <div class="circle" :class="color">
-      <i :class="['fas', 'fa-' + icon]"></i>
-    </div>
-    <p class="circle_title">{{ title }}
-      <slot></slot>
-    </p>
-  </div>
-</template>
-
 <script>
 export default {
   name: 'FeatureCircle',
@@ -28,3 +17,16 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="circle_container">
+    <div class="circle" :class="color">
+      <i :class="['fas', 'fa-' + icon]"></i>
+    </div>
+    <p class="circle_title">{{ title }}
+      <slot></slot>
+    </p>
+  </div>
+</template>
+
+
